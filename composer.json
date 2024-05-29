@@ -1,0 +1,21 @@
+{
+    "name": "electronicsolutions/app-movi-web-service",
+    "description": "app movil para uso de movimeintos e inventarios",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "src\\Controller\\": "src/controllers/",
+            "src\\Model\\": "src/models/"
+          }
+    },
+    "authors": [
+        {
+            "name": "ElectronicSolution",
+            "email": "sistemas@electronicrs.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
